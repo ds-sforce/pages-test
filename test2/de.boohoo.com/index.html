@@ -1,0 +1,100 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="/de.boohoo.com/favicon.ico" rel="shortcut icon" />
+  <title>boohoo.com - We shopped till we dropped</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      text-align: center;
+      margin: 0
+    }
+
+    .mobile {
+      display: none;
+    }
+
+    .top {
+      height: 110px;
+      background: black;
+    }
+
+    .wrap {
+      background: linear-gradient(black, #1a1a1a);
+
+    }
+
+    .info {
+      width: 40%;
+      min-width: 400px;
+    }
+
+    @media screen and (min-width: 1600px) {
+      .info {
+        width: 635px;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .mobile {
+        display: block;
+      }
+
+      .desktop {
+        display: none;
+      }
+
+      .top {
+        height: 60px;
+      }
+
+      .logo {
+        width: 50%;
+        min-width: 200px;
+      }
+
+      .info {
+        width: 70%;
+        min-width: 200px;
+      }
+
+      .mid {
+        height: 35vw;
+        background-color: black;
+      }
+
+      .wrap1 {
+        background-color: black;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="desktop">
+    <div class="top"></div>
+    <div class="wrap">
+      <img class="info" src="/de.boohoo.com/bh.png" />
+    </div>
+  </div>
+
+  <div class="mobile">
+
+    <div class="top"></div>
+    <div class="wrap1">
+      <img class="logo" src="/de.boohoo.com/bh_m_1.png" />
+    </div>
+    <div class="mid"></div>
+    <div class="wrap">
+      <img class="info" src="/de.boohoo.com/bh_m_2.png" />
+
+    </div>
+  </div>
+
+</body>
+
+</html>
